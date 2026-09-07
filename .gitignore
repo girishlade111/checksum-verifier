@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-electron
+release
+data
+.chrome-*-profile
+*.log
+npm-debug.log*
+.env
+.env.local
+.DS_Store
+Thumbs.db
+.vite
+*.tsbuildinfo
