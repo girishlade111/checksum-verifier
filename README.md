@@ -139,3 +139,15 @@ in-app **Animations** switch covers Framer Motion.
 
 - Node.js 22.5+ (the server uses the built-in `node:sqlite`; no native modules to compile)
 - A modern browser with WebAssembly and ES-module Web Workers
+
+---
+
+## Static web build
+
+A static browser build of this app is published via GitHub Pages: all file hashing
+(MD5 / SHA-1 / SHA-256 / SHA-512) runs **100% client-side** in WebAssembly workers,
+so the static build is fully functional. The embedded CodeBuddy agent assistant
+requires the Express server in `/server` (CodeBuddy credentials) and is not
+available in the static build.
+
+Built by Girish Lade · https://ladestack.in
